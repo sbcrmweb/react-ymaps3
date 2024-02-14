@@ -16,10 +16,10 @@ export enum YMapsPackage {
   SphericalMercatorProjection = '@yandex/ymaps3-spherical-mercator-projection@0.0.1',
 }
 
-export const YMap = utils.createElement<
-  YMaps.YMap,
-  YMaps.YMapProps
->('YMap');
+// export const YMap = utils.createElement<
+//   YMaps.YMap,
+//   YMaps.YMapProps
+// >('YMap');s
 
 export const YMapMarker = utils.createElement<
   YMaps.YMapMarker,
