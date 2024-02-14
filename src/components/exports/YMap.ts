@@ -6,7 +6,7 @@ import { Modify } from '../../utils/typescript';
 export type YMapProps = Modify<
   React.ComponentPropsWithRef<typeof YMapComponent>,
   {
-    key?: React.Key;
+    key?: React.Key | null;
   }
 >;
 
