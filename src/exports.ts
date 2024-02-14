@@ -1,6 +1,9 @@
 import * as YMaps from '@yandex/ymaps3-types';
 import * as Controls from '@yandex/ymaps3-types/packages/controls';
 import * as Markers from '@yandex/ymaps3-types/packages/markers';
+
+import { YMap as ReactYMap } from '@yandex/ymaps3-types/react';
+
 import utils from './utils';
 
 // TODO: inspect this types:
@@ -16,10 +19,14 @@ export enum YMapsPackage {
   SphericalMercatorProjection = '@yandex/ymaps3-spherical-mercator-projection@0.0.1',
 }
 
-// export const YMap = utils.createElement<
-//   YMaps.YMap,
-//   YMaps.YMapProps
-// >('YMap');s
+export const YMap = utils.createElement<
+  YMaps.YMap,
+  React.ComponentProps<typeof ReactYMap>
+>('YMap');
+
+export type YMapProps = React.ComponentProps<
+  typeof ReactYMap
+>;
 
 export const YMapMarker = utils.createElement<
   YMaps.YMapMarker,
