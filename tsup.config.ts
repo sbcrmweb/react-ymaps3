@@ -5,7 +5,7 @@ export default defineConfig({
   bundle: false,
   treeshake: true,
   splitting: true,
-  format: ['esm', 'cjs'],
+  format: ['esm'],
   entry: ['src/index.ts', 'src/**/*.ts', 'src/**/*.tsx'],
   sourcemap: true,
   clean: false,
