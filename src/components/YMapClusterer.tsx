@@ -5,7 +5,7 @@ import {
 import { YMapClusterer as YMapClustererReact } from '@yandex/ymaps3-types/packages/clusterer/react';
 import React, { useMemo } from 'react';
 import { YMapsPackage } from '..';
-import { useYMapContext } from './YMapProvider';
+import { useYMapContext } from './YMapsProvider';
 
 export type YMapClustererProps = Omit<
   React.ComponentProps<typeof YMapClustererReact>,

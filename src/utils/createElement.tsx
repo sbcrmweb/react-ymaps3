@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { useYMapContext } from '../components/YMapProvider';
+import { useYMapContext } from '../components/YMapsProvider';
 
 export const createElement = <T, U = unknown>(
   component: string,

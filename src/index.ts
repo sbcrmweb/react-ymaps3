@@ -1,5 +1,5 @@
-export * from './components/YMapProvider';
-export { default as YMapProvider } from './components/YMapProvider';
+export * from './components/YMapsProvider';
+export { default as YMapsProvider } from './components/YMapsProvider';
 
 export { default as ymaps } from './utils';
 

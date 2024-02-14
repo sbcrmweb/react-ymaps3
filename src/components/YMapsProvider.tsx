@@ -31,7 +31,7 @@ export const ymapsContext = createContext<YMapsContext>(
   null!,
 );
 
-const YMapProvider = ({
+const YMapsProvider = ({
   apiKey,
   lang,
   children,
@@ -87,9 +87,9 @@ const YMapProvider = ({
   );
 };
 
-export default YMapProvider;
+export default YMapsProvider;
 
-export const useYMapContext = () => {
+export const useYMapsContext = () => {
   const value =
     useContext(ymapsContext) ?? ({} as YMapsContext);
   return useMemo(() => value, [value]);
