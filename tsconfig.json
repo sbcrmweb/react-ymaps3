@@ -4,13 +4,11 @@
     "outDir": "./dist",
     "target": "es2018",
     "lib": ["es2020", "dom"],
-    "types": ["react"],
     "jsx": "preserve",
     "moduleResolution": "node",
     "declaration": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
+    "esModuleInterop": true
   },
   "exclude": ["dist", "node_modules"]
 }
