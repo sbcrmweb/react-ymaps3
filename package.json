@@ -1,13 +1,13 @@
 {
   "name": "react-ymaps3",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "React Yandex Maps API 3 wrapper",
   "homepage": "https://github.com/sbcrmweb/react-ymaps3",
   "repository": {
     "type": "git",
     "url": "https://github.com/sbcrmweb/react-ymaps3.git"
   },
-  "main": "./dist/index.mj",
+  "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
