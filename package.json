@@ -13,7 +13,8 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "clean": "rimraf ./dist"
+    "clean": "rimraf ./dist",
+    "test": "tsup"
   },
   "devDependencies": {
     "@types/react": "^18.2.45",
