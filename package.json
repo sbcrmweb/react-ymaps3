@@ -1,6 +1,6 @@
 {
   "name": "react-ymaps3",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "React Yandex Maps API 3 wrapper",
   "homepage": "https://github.com/sbcrmweb/react-ymaps3",
   "repository": {
@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.2.45",
-    "@yandex/ymaps3-types": "^0.0.20",
+    "@yandex/ymaps3-types": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rimraf": "^5",
