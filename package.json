@@ -1,0 +1,40 @@
+{
+  "name": "react-ymaps3",
+  "version": "0.0.1",
+  "description": "React Yandex Maps API 3 wrapper",
+  "homepage": "https://github.com/sbcrmweb/react-ymaps3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbcrmweb/react-ymaps3.git"
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.mts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "clean": "rimraf ./dist"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "@yandex/ymaps3-types": "^0.0.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rimraf": "^5",
+    "tsup": "^8",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "author": {
+    "name": "sbcrmweb"
+  },
+  "maintainers": [
+    {
+      "name": "sbcrmweb"
+    }
+  ],
+  "license": "MIT"
+}
