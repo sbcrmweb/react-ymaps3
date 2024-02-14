@@ -11,7 +11,7 @@ import useIsomorphicEffect from '../hooks/useIsomorphicEffect';
 import utils from '../utils';
 import type { YMaps, YMapsPackage } from '..';
 
-interface YMapsContext {
+export interface YMapsContext {
   ymaps: YMaps;
   reactify: Reactify;
   packages: string[];
@@ -19,7 +19,7 @@ interface YMapsContext {
   onLoadPackage: (pkg: string) => Promise<void>;
 }
 
-interface YMapsProviderProps {
+export interface YMapsProviderProps {
   apiKey: string;
   lang?: string;
   children?: React.ReactNode;
