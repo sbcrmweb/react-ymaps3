@@ -5,7 +5,7 @@ import utils from './utils';
 
 // TODO: inspect this types:
 // seems more apporiate in "some" casese but not in others
-import * as YMapsReact from '@yandex/ymaps3-types/react';
+// import * as YMapsReact from '@yandex/ymaps3-types/react';
 
 export enum YMapsPackage {
   CartesianProjection = '@yandex/ymaps3-cartesian-projection@0.0.1',
@@ -35,6 +35,12 @@ export const YMapDefaultFeaturesLayer = utils.createElement<
   YMaps.YMapDefaultFeaturesLayer,
   YMaps.YMapDefaultFeaturesLayerProps
 >('YMapDefaultFeaturesLayer');
+
+export const YMapDefaultSatelliteLayer =
+  utils.createElement<
+    YMaps.YMapDefaultSatelliteLayer,
+    YMaps.YMapDefaultSatelliteLayerProps
+  >('YMapDefaultSatelliteLayer');
 
 export const YMapListener = utils.createElement<
   YMaps.YMapListener,
