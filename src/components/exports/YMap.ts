@@ -8,7 +8,7 @@ export type YMapProps = React.ComponentPropsWithRef<
 
 const YMap = utils.createElement<YMapHandle, YMapProps>(
   'YMap',
-) as React.ForwardRefExoticComponent<YMapProps>;
+);
 
 export default YMap;
 
