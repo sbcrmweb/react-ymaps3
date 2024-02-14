@@ -9,7 +9,8 @@
     "moduleResolution": "node",
     "declaration": true,
     "skipLibCheck": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
   },
   "exclude": ["dist", "node_modules"]
 }
