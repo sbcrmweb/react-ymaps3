@@ -22,7 +22,7 @@ export enum YMapsPackage {
   SphericalMercatorProjection = '@yandex/ymaps3-spherical-mercator-projection@0.0.1',
 }
 
-export type YMapProps = React.ComponentProps<
+export type YMapProps = React.ComponentPropsWithoutRef<
   typeof YMapsReact.YMap
 >;
 export const YMap = utils.createElement<
@@ -30,9 +30,10 @@ export const YMap = utils.createElement<
   YMapProps
 >('YMap');
 
-export type YMapMarkerProps = React.ComponentProps<
-  typeof YMapsReact.YMapMarker
->;
+export type YMapMarkerProps =
+  React.ComponentPropsWithoutRef<
+    typeof YMapsReact.YMapMarker
+  >;
 
 export const YMapMarker = utils.createElement<
   YMaps.YMapMarker,
@@ -40,7 +41,7 @@ export const YMapMarker = utils.createElement<
 >('YMapMarker');
 
 export type YMapDefaultSchemeLayerProps =
-  React.ComponentProps<
+  React.ComponentPropsWithoutRef<
     typeof YMapsReact.YMapDefaultSchemeLayer
   >;
 
@@ -50,7 +51,7 @@ export const YMapDefaultSchemeLayer = utils.createElement<
 >('YMapDefaultSchemeLayer');
 
 export type YMapDefaultFeaturesLayerProps =
-  React.ComponentProps<
+  React.ComponentPropsWithoutRef<
     typeof YMapsReact.YMapDefaultFeaturesLayer
   >;
 
@@ -60,7 +61,7 @@ export const YMapDefaultFeaturesLayer = utils.createElement<
 >('YMapDefaultFeaturesLayer');
 
 export type YMapDefaultSatelliteLayerProps =
-  React.ComponentProps<
+  React.ComponentPropsWithoutRef<
     typeof YMapsReact.YMapDefaultFeaturesLayer
   >;
 
@@ -70,54 +71,60 @@ export const YMapDefaultSatelliteLayer =
     YMapDefaultSatelliteLayerProps
   >('YMapDefaultSatelliteLayer');
 
-export type YMapListenerProps = React.ComponentProps<
-  typeof YMapsReact.YMapListener
->;
+export type YMapListenerProps =
+  React.ComponentPropsWithoutRef<
+    typeof YMapsReact.YMapListener
+  >;
 
 export const YMapListener = utils.createElement<
   YMaps.YMapListener,
   YMapListenerProps
 >('YMapListener');
 
-export type YMapDefaultMarkerProps = React.ComponentProps<
-  typeof MarkersReact.YMapDefaultMarker
->;
+export type YMapDefaultMarkerProps =
+  React.ComponentPropsWithoutRef<
+    typeof MarkersReact.YMapDefaultMarker
+  >;
 
 export const YMapDefaultMarker = utils.createElement<
   Markers.YMapDefaultMarker,
   YMapDefaultMarkerProps
 >('YMapDefaultMarker', YMapsPackage.Markers);
 
-export type YMapControlsProps = React.ComponentProps<
-  typeof YMapsReact.YMapControls
->;
+export type YMapControlsProps =
+  React.ComponentPropsWithoutRef<
+    typeof YMapsReact.YMapControls
+  >;
 
 export const YMapControls = utils.createElement<
   YMaps.YMapControls,
   YMapControlsProps
 >('YMapControls');
 
-export type YMapControlButtonProps = React.ComponentProps<
-  typeof YMapsReact.YMapControlButton
->;
+export type YMapControlButtonProps =
+  React.ComponentPropsWithoutRef<
+    typeof YMapsReact.YMapControlButton
+  >;
 
 export const YMapControlButton = utils.createElement<
   YMaps.YMapControlButton,
   YMapControlButtonProps
 >('YMapControlButton');
 
-export type YMapContainerProps = React.ComponentProps<
-  typeof YMapsReact.YMapContainer
->;
+export type YMapContainerProps =
+  React.ComponentPropsWithoutRef<
+    typeof YMapsReact.YMapContainer
+  >;
 
 export const YMapContainer = utils.createElement<
   YMaps.YMapContainer,
   YMapContainerProps
 >('YMapContainer');
 
-export type YMapZoomControlProps = React.ComponentProps<
-  typeof ControlsReact.YMapZoomControl
->;
+export type YMapZoomControlProps =
+  React.ComponentPropsWithoutRef<
+    typeof ControlsReact.YMapZoomControl
+  >;
 
 export const YMapZoomControl = utils.createElement<
   Controls.YMapZoomControl,
@@ -125,7 +132,7 @@ export const YMapZoomControl = utils.createElement<
 >('YMapZoomControl', YMapsPackage.Controls);
 
 export type YMapGeolocationControlProps =
-  React.ComponentProps<
+  React.ComponentPropsWithoutRef<
     typeof ControlsReact.YMapGeolocationControl
   >;
 
@@ -134,18 +141,20 @@ export const YMapGeolocationControl = utils.createElement<
   YMapGeolocationControlProps
 >('YMapGeolocationControl', YMapsPackage.Controls);
 
-export type YMapCollectionProps = React.ComponentProps<
-  typeof YMapsReact.YMapContainer
->;
+export type YMapCollectionProps =
+  React.ComponentPropsWithoutRef<
+    typeof YMapsReact.YMapContainer
+  >;
 
 export const YMapCollection = utils.createElement<
   YMaps.YMapCollection,
   YMapCollectionProps
 >('YMapCollection');
 
-export type YMapFeatureProps = React.ComponentProps<
-  typeof YMapsReact.YMapFeature
->;
+export type YMapFeatureProps =
+  React.ComponentPropsWithoutRef<
+    typeof YMapsReact.YMapFeature
+  >;
 
 export const YMapFeature = utils.createElement<
   YMaps.YMapFeature,
@@ -153,7 +162,7 @@ export const YMapFeature = utils.createElement<
 >('YMapFeature');
 
 export type YMapFeatureDataSourceProps =
-  React.ComponentProps<
+  React.ComponentPropsWithoutRef<
     typeof YMapsReact.YMapFeatureDataSource
   >;
 
