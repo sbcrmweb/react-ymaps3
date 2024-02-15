@@ -1,6 +1,7 @@
 .idea
 .vscode
 .turbo
+.git
 
 # Logs
 logs
