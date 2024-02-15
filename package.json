@@ -14,9 +14,11 @@
     "dev": "tsup --watch",
     "clean": "rimraf ./dist"
   },
+  "dependencies": {
+    "@yandex/ymaps3-types": "latest"
+  },
   "devDependencies": {
-    "@types/react": "^18.2.44",
-    "@yandex/ymaps3-types": "^0.0.21",
+    "@types/react": "^18.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rimraf": "^5",
