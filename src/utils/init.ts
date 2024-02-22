@@ -1,3 +1,6 @@
+// AUTHOR: @fede4ka1245
+// https://github.com/fede4ka1245/ymap3-components
+
 import type { Reactify } from '@yandex/ymaps3-types/reactify';
 import React from 'react';
 import ReactDOM from 'react-dom';
